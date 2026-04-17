@@ -1,0 +1,31 @@
+name: website_flutter
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  animated_text_kit: ^4.2.2
+  url_launcher: ^6.2.1
+  flutter_svg: ^2.0.10  # TAMBAHKAN INI UNTUK MEMUNCULKAN IKON SVG
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Aku buka bagian assets ini agar kamu bisa menampilkan gambar
+  # Pastikan kamu membuat folder 'assets' di dalam project kamu
+  # dan memasukkan gambar-gambar portofoliomu ke dalamnya.
+  assets:
+    - assets/
