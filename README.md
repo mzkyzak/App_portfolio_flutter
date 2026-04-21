@@ -4,10 +4,19 @@
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 [![Vibe](https://img.shields.io/badge/Vibe-Cyberpunk-red?style=for-the-badge)](https://github.com/mzkyzak)
 
-Sebuah mahakarya aplikasi portofolio interaktif yang dibangun murni menggunakan **Flutter**. Proyek ini tidak hanya menonjolkan desain visual (UI) bernuansa *Sci-Fi* dan *Glassmorphism*, tetapi juga fungsionalitas tingkat lanjut (UX) termasuk pengiriman pesan *real-time* ke email.
+Sebuah aplikasi atau semua os, karena portofolio ini interaktif yang dibangun murni menggunakan **Flutter**. Proyek ini tidak hanya  desain visual (UI) bernuansa *Sci-Fi* dan *Glassmorphism*, tetapi juga fungsionalitas tingkat lanjut (UX) termasuk pengiriman pesan *real-time* ke email.
 
 ---
 
+## 📱 Preview Aplikasi 
+
+<p align="center">
+  <img width="32%" alt="contoh_1" src="https://github.com/user-attachments/assets/64bbd700-6f92-469f-880c-3accbe402920" />
+  <img width="32%" alt="contoh_2" src="https://github.com/user-attachments/assets/01bd7604-5ad6-4976-863a-9bf286bdea7c" />
+  <img width="32%" alt="contoh_3" src="https://github.com/user-attachments/assets/bdc145e6-a4c1-4d81-8e59-3273d26a0255" />
+</p>
+
+---
 ## ✨ Fitur Lengkap (by Section)
 
 ### 🛸 1. Preloader Screen (System Booting)
@@ -51,8 +60,29 @@ Bukan sekadar pajangan! Form kontak ini benar-benar berfungsi layaknya website p
 ## 🚀 Cara Menjalankan Project
 
 1. **Clone Repository**
-   ```bash
+   ```cmd
    git clone https://github.com/mzkyzak/App_Portfolio_Flutter.git
    cd App_Portfolio_Flutter
+   
+2. Konfigurasi Contact Form (Penting!)
+Agar fitur pesan di bagian Contact berfungsi dan masuk ke email Anda sendiri, buka file lib/main.dart dan cari baris kode berikut:
+ ```cmd
+  // Ganti email di bawah ini dengan email aktif Anda
+Uri.parse('[https://formsubmit.co/ajax/taufiqikhsanmuzaky18@gmail.com]
+ ```
+4. lalu Install Dependencies :
 
-2.
+   ```cmd
+   flutter pub get
+   ```
+5. Baru di jalankan  :
+
+   ```cmd
+   flutter run
+   ```
+6. build aplikasi?  :
+
+   ```cmd
+   flutter build apk
+   ```
+   
