@@ -85,4 +85,5 @@ Uri.parse('[https://formsubmit.co/ajax/taufiqikhsanmuzaky18@gmail.com]
    ```cmd
    flutter build apk
    ```
-   
+
+**hubungi kami jika ada fatal**
