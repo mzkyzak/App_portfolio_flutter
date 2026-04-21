@@ -52,4 +52,7 @@ Bukan sekadar pajangan! Form kontak ini benar-benar berfungsi layaknya website p
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/mzkyzak/website_flutter.git](https://github.com/mzkyzak/website_flutter.git)
+   git clone https://github.com/mzkyzak/App_Portfolio_Flutter.git
+   cd App_Portfolio_Flutter
+
+2.
